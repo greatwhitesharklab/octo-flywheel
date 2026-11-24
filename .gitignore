@@ -1,0 +1,21 @@
+# the moat (accumulated customer data) — NEVER distribute
+mem/
+log/
+state/
+*.jsonl
+data/
+# weights / keys
+*.pt
+*.bin
+*.safetensors
+*.key
+.env
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+*.log
